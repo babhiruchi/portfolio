@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffe5d9">
+  <meta name="description" content="Abhiruchi Boorugu's education journey and current studies.">
+  <title>Education — Abhiruchi Boorugu</title>
+  <style>
+    :root { --alabaster-grey: #d8e2dcff; --powder-petal: #ffe5d9ff; --pastel-pink: #ffcad4ff; --cherry-blossom: #f4acb7ff; --dusty-mauve: #9d8189ff; --ink: #332d30; --muted: #62575b; --paper: #fffaf7; --serif: Georgia, 'Times New Roman', serif; --sans: 'Avenir Next', Avenir, 'Segoe UI', sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: var(--alabaster-grey); font-family: var(--sans); line-height: 1.6; }
+    a { color: inherit; }
+    a:focus-visible { outline: 3px solid var(--dusty-mauve); outline-offset: 4px; }
+    .wrap { width: min(1040px, calc(100% - 40px)); margin-inline: auto; }
+    .header { position: sticky; z-index: 2; top: 0; background: rgba(255,229,217,.95); border-bottom: 1px solid rgba(51,45,48,.15); backdrop-filter: blur(12px); }
+    nav { min-height: 70px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .brand { color: var(--dusty-mauve); font: italic 700 1.2rem var(--serif); text-decoration: none; }
+    .nav-links { display: flex; gap: 24px; }
+    .nav-links a { color: var(--muted); font-size: .9rem; text-decoration: none; }
+    main { margin-block: 28px; padding: clamp(28px, 6vw, 72px); border: 1px solid rgba(51,45,48,.16); background: var(--paper); box-shadow: 0 16px 40px rgba(51,45,48,.13); }
+    .eyebrow { margin: 0 0 12px; color: var(--dusty-mauve); font-size: .72rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+    h1, h2, h3 { font-family: var(--serif); }
+    h1 { max-width: 720px; margin: 0; color: var(--dusty-mauve); font-size: clamp(3rem, 8vw, 6.5rem); font-weight: 500; letter-spacing: -.065em; line-height: .95; }
+    .intro { max-width: 620px; margin: 22px 0 52px; color: var(--muted); font-size: 1.07rem; }
+    .timeline { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .card { position: relative; min-height: 180px; padding: 25px 88px 25px 25px; border: 2px solid white; background: var(--powder-petal); box-shadow: 4px 6px 0 rgba(51,45,48,.1); }
+    .card:nth-child(2) { background: var(--alabaster-grey); }
+    .card:nth-child(3) { background: #fff3e8; }
+    .card.current { grid-column: 1 / -1; background: var(--pastel-pink); }
+    .card h2 { margin: 0 0 8px; font-size: 1.55rem; }
+    .card p { margin: 0; color: var(--muted); }
+    .card .eyebrow { margin-bottom: 8px; }
+    .card.current .eyebrow, .card.current h2 { color: #332d30; }
+    .now-label { display: inline-block; margin-bottom: 10px; padding: 4px 10px; background: var(--dusty-mauve); color: white; font-size: .68rem; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
+    .skills-note { margin-top: 54px; padding-top: 30px; border-top: 1px solid rgba(51,45,48,.16); }
+    .skills-note h2 { margin: 0 0 15px; color: var(--dusty-mauve); font-size: 2rem; }
+    .pills { display: flex; flex-wrap: wrap; gap: 9px; }
+    .pill { padding: 7px 12px; border: 1px solid rgba(51,45,48,.16); background: white; font-size: .84rem; }
+    .back { display: inline-block; margin-top: 48px; color: var(--dusty-mauve); font-weight: 750; text-underline-offset: 4px; }
+    footer { padding-block: 22px; color: rgba(255,255,255,.85); font-size: .83rem; }
+    @media (max-width: 600px) { .wrap { width: calc(100% - 28px); } main { margin-block: 14px; padding: 28px 20px; } .timeline { grid-template-columns: 1fr; } .card.current { grid-column: auto; } .card:nth-child(n) { transform: none; } .nav-links { gap: 14px; } }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <nav class="wrap" aria-label="Main navigation">
+      <a class="brand" href="index.html">Abhiruchi Boorugu</a>
+      <div class="nav-links"><a href="index.html#about">About</a><a href="index.html#projects">Projects</a><a href="education.html" aria-current="page">Education</a></div>
+    </nav>
+  </header>
+  <main class="wrap">
+    <p class="eyebrow">My education · the learning keeps going</p>
+    <h1>Where I’ve learned, and where I’m learning now.</h1>
+    <p class="intro">My path so far has taken me from school in Hyderabad to my current first year of higher education. I’m continuing to build my knowledge through my degree and Scaler.</p>
+    <section class="timeline" aria-label="Education timeline">
+      <article class="card current">
+        <span class="now-label">Ongoing · First year</span>
+        <h2>BSc (Hons), BITS Pilani</h2>
+        <p>Currently pursuing my undergraduate degree at BITS Pilani.</p>
+      </article>
+      <article class="card current">
+        <span class="now-label">Ongoing</span>
+        <h2>Scaler</h2>
+        <p>Continuing my education through Scaler alongside my degree.</p>
+      </article>
+      <article class="card">
+        <p class="eyebrow">Before college</p>
+        <h2>Page Junior College</h2>
+        <p>Studied here after completing my schooling.</p>
+      </article>
+      <article class="card">
+        <p class="eyebrow">School · through Class 10</p>
+        <h2>St. Ann’s High School</h2>
+        <p>Completed my schooling through the ICSE curriculum.</p>
+      </article>
+      <article class="card">
+        <p class="eyebrow">Early schooling</p>
+        <h2>Unicent, Hyderabad</h2>
+        <p>Studied here through Class 1.</p>
+      </article>
+    </section>
+    <section class="skills-note" aria-labelledby="learning-title">
+      <p class="eyebrow">Alongside my studies</p>
+      <h2 id="learning-title">What I’m learning now</h2>
+      <div class="pills"><span class="pill">Python</span><span class="pill">C</span><span class="pill">Web development</span></div>
+    </section>
+    <a class="back" href="index.html">← Back to my portfolio</a>
+  </main>
+  <footer><div class="wrap">© 2026 Abhiruchi Boorugu</div></footer>
+</body>
+</html>
